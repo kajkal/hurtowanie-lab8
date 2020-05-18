@@ -1,0 +1,213 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bfbb3c20-724e-4117-8c3c-2689bf1a0b13" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>lab8</ID>
+  <Name>lab8</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>lab8</DataSourceID>
+  <Schema>
+    <xs:schema id="lab8" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="lab8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="dbe1e395-bed5-49bd-b0be-1f3d727ee830">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_lab8_fakt_OPERACJE" msprop:design-time-name="26b176ad-e503-4a29-93e3-f4c333f293e2" msprop:DbTableName="lab8_fakt_OPERACJE" msprop:FriendlyName="lab8_fakt_OPERACJE" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="341edeb5-1e17-472d-92cd-12fcba5763c8" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:long" />
+                  <xs:element name="takeoff" msprop:design-time-name="7c6095c0-6529-46b7-b63c-70f9d582a763" msprop:DbColumnName="takeoff" msprop:FriendlyName="takeoff" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="landing" msprop:design-time-name="dec56b31-ba1e-413d-998d-b1cecacefa46" msprop:DbColumnName="landing" msprop:FriendlyName="landing" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="src_iata_code" msprop:design-time-name="23f6149b-89da-4202-8a2a-45782db517ca" msprop:DbColumnName="src_iata_code" msprop:FriendlyName="src_iata_code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dst_iata_code" msprop:design-time-name="6e853049-12a9-4558-b7c9-24f90808a777" msprop:DbColumnName="dst_iata_code" msprop:FriendlyName="dst_iata_code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="international" msprop:design-time-name="496d7e8e-d95e-4323-a487-586b9cadc06d" msprop:DbColumnName="international" msprop:FriendlyName="international" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="flight_distance" msprop:design-time-name="c14ba12d-ba5b-4a74-bd72-88deab84d2c2" msprop:DbColumnName="flight_distance" msprop:FriendlyName="flight_distance" type="xs:double" minOccurs="0" />
+                  <xs:element name="fuel_consumption_rate" msprop:design-time-name="5d0c41cd-d67d-4a42-9bfa-902aed3c15be" msprop:DbColumnName="fuel_consumption_rate" msprop:FriendlyName="fuel_consumption_rate" type="xs:double" minOccurs="0" />
+                  <xs:element name="fuel_consumption" msprop:design-time-name="c9b5ac00-a619-4ddf-8a5d-17ad11ae887e" msprop:DbColumnName="fuel_consumption" msprop:FriendlyName="fuel_consumption" type="xs:double" minOccurs="0" />
+                  <xs:element name="occup" msprop:design-time-name="7bc69da1-d288-48ef-8363-6d61eb50f27a" msprop:DbColumnName="occup" msprop:FriendlyName="occup" type="xs:short" minOccurs="0" />
+                  <xs:element name="occup_pct" msprop:design-time-name="4b4045d8-8bce-4b15-9bdd-27d8b17bc3c5" msprop:DbColumnName="occup_pct" msprop:FriendlyName="occup_pct" type="xs:float" minOccurs="0" />
+                  <xs:element name="occup_max" msprop:design-time-name="e6b1a389-3eca-488f-965c-130cd904f09e" msprop:DbColumnName="occup_max" msprop:FriendlyName="occup_max" type="xs:float" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lab8_wymiar_STARTY" msprop:design-time-name="e213f8fa-d01b-4e1a-a12d-944d1bd64233" msprop:DbTableName="lab8_wymiar_STARTY" msprop:FriendlyName="lab8_wymiar_STARTY" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="takeoff" msprop:design-time-name="467aef42-12a8-4dea-b0d2-939e21ccb1d6" msprop:DbColumnName="takeoff" msprop:FriendlyName="takeoff" type="xs:dateTime" />
+                  <xs:element name="takeoff_hour" msprop:design-time-name="138e7269-16a0-4413-ae7d-32c0f54be0bc" msprop:DbColumnName="takeoff_hour" msprop:FriendlyName="takeoff_hour" type="xs:int" minOccurs="0" />
+                  <xs:element name="takeoff_day" msprop:design-time-name="e995a57a-09cc-4ad3-ae6c-1c3b156af3b9" msprop:DbColumnName="takeoff_day" msprop:FriendlyName="takeoff_day" type="xs:int" minOccurs="0" />
+                  <xs:element name="takeoff_week" msprop:design-time-name="6a7a2ed3-e5eb-4b84-92b1-96f58108ac88" msprop:DbColumnName="takeoff_week" msprop:FriendlyName="takeoff_week" type="xs:int" minOccurs="0" />
+                  <xs:element name="takeoff_month" msprop:design-time-name="f555716d-d79d-44f3-a092-3147478c49ac" msprop:DbColumnName="takeoff_month" msprop:FriendlyName="takeoff_month" type="xs:int" minOccurs="0" />
+                  <xs:element name="takeoff_date" msprop:design-time-name="61256f2a-7aa5-49e7-afc3-81878c5879a0" msprop:DbColumnName="takeoff_date" msprop:FriendlyName="takeoff_date" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lab8_wymiar_LOTNISKA" msprop:design-time-name="74833015-92d9-4105-ace0-7d0746ab8ef1" msprop:DbTableName="lab8_wymiar_LOTNISKA" msprop:FriendlyName="lab8_wymiar_LOTNISKA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="airport_code_iata" msprop:design-time-name="267ff8c0-ddb0-4afb-9bd2-97bfc65c0965" msprop:DbColumnName="airport_code_iata" msprop:FriendlyName="airport_code_iata">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="name" msprop:design-time-name="235ae1eb-72a5-4ecb-9794-94e94c1ff380" msprop:DbColumnName="name" msprop:FriendlyName="name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="city" msprop:design-time-name="3da480d8-ad0d-478e-9327-e318ec3072bb" msprop:DbColumnName="city" msprop:FriendlyName="city" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="country" msprop:design-time-name="3cfcc543-fc45-4f3d-a728-e56e87e0012f" msprop:DbColumnName="country" msprop:FriendlyName="country" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="code_icao" msprop:design-time-name="f385be8c-1f71-4dcd-b9bb-8950dc47cbd6" msprop:DbColumnName="code_icao" msprop:FriendlyName="code_icao" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="lat" msprop:design-time-name="550ece68-28ba-4e79-9960-c7b70d2a3391" msprop:DbColumnName="lat" msprop:FriendlyName="lat" type="xs:float" minOccurs="0" />
+                  <xs:element name="lon" msprop:design-time-name="00758b06-29f3-4655-a41f-63d8e901fd9f" msprop:DbColumnName="lon" msprop:FriendlyName="lon" type="xs:float" minOccurs="0" />
+                  <xs:element name="alt" msprop:design-time-name="bc09e478-d5c9-4899-9d68-bb3476b6b84f" msprop:DbColumnName="alt" msprop:FriendlyName="alt" type="xs:float" minOccurs="0" />
+                  <xs:element name="offsetfromutc" msprop:design-time-name="8e458719-27a5-43dc-8a8c-de1ccbd6b5da" msprop:DbColumnName="offsetfromutc" msprop:FriendlyName="offsetfromutc" type="xs:float" minOccurs="0" />
+                  <xs:element name="dst" msprop:design-time-name="c8281069-a2d6-45e0-bee6-42ec962f2c31" msprop:DbColumnName="dst" msprop:FriendlyName="dst" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="timezone" msprop:design-time-name="e1b6b5c6-f217-48b5-a749-61998137a636" msprop:DbColumnName="timezone" msprop:FriendlyName="timezone" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="type" msprop:design-time-name="2f60bb81-afb5-447d-972e-f8b98eec1735" msprop:DbColumnName="type" msprop:FriendlyName="type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="source" msprop:design-time-name="fc7c4861-7c6e-463f-b4cb-9749bf43462c" msprop:DbColumnName="source" msprop:FriendlyName="source" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lab8_wymiar_LADOWANIA" msprop:design-time-name="ae9b8958-b7ec-4f0a-b52b-40c4f0925fe7" msprop:DbTableName="lab8_wymiar_LADOWANIA" msprop:FriendlyName="lab8_wymiar_LADOWANIA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="landing" msprop:design-time-name="ff16335a-2ecc-4f67-a695-c59ffa11feef" msprop:DbColumnName="landing" msprop:FriendlyName="landing" type="xs:dateTime" />
+                  <xs:element name="landing_hour" msprop:design-time-name="fb3c0a6c-fa00-4018-b0b3-85b173fa3c96" msprop:DbColumnName="landing_hour" msprop:FriendlyName="landing_hour" type="xs:int" minOccurs="0" />
+                  <xs:element name="landing_day" msprop:design-time-name="23fb28bd-025a-496c-a12b-8d2300334d58" msprop:DbColumnName="landing_day" msprop:FriendlyName="landing_day" type="xs:int" minOccurs="0" />
+                  <xs:element name="landing_week" msprop:design-time-name="7147a89c-bac7-4730-a1c4-42b85b0dcaf8" msprop:DbColumnName="landing_week" msprop:FriendlyName="landing_week" type="xs:int" minOccurs="0" />
+                  <xs:element name="landing_month" msprop:design-time-name="d4cad70b-2b98-49ae-8203-057646e3d406" msprop:DbColumnName="landing_month" msprop:FriendlyName="landing_month" type="xs:int" minOccurs="0" />
+                  <xs:element name="landing_date" msprop:design-time-name="65fa7783-07a4-4acf-a69d-bc3e0039fdf3" msprop:DbColumnName="landing_date" msprop:FriendlyName="landing_date" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lab8_fakt_OPERACJE" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_lab8_wymiar_STARTY_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lab8_wymiar_STARTY" />
+          <xs:field xpath="takeoff" />
+        </xs:unique>
+        <xs:unique name="dbo_lab8_wymiar_LOTNISKA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lab8_wymiar_LOTNISKA" />
+          <xs:field xpath="airport_code_iata" />
+        </xs:unique>
+        <xs:unique name="dbo_lab8_wymiar_LADOWANIA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lab8_wymiar_LADOWANIA" />
+          <xs:field xpath="landing" />
+        </xs:unique>
+        <xs:keyref name="FK_landing_id_lab8" refer="dbo_lab8_wymiar_LADOWANIA_Constraint1">
+          <xs:selector xpath=".//dbo_lab8_fakt_OPERACJE" />
+          <xs:field xpath="landing" />
+        </xs:keyref>
+        <xs:keyref name="FK_src_airport_IATA_lab8" refer="dbo_lab8_wymiar_LOTNISKA_Constraint1">
+          <xs:selector xpath=".//dbo_lab8_fakt_OPERACJE" />
+          <xs:field xpath="src_iata_code" />
+        </xs:keyref>
+        <xs:keyref name="FK_dst_airport_IATA_lab8" refer="dbo_lab8_wymiar_LOTNISKA_Constraint1">
+          <xs:selector xpath=".//dbo_lab8_fakt_OPERACJE" />
+          <xs:field xpath="dst_iata_code" />
+        </xs:keyref>
+        <xs:keyref name="FK_takeoff_id_lab8" refer="dbo_lab8_wymiar_STARTY_Constraint1">
+          <xs:selector xpath=".//dbo_lab8_fakt_OPERACJE" />
+          <xs:field xpath="takeoff" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <lab8 xmlns="" />
+  </Schema>
+</DataSourceView>

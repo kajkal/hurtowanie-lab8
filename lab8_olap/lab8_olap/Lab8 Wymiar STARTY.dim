@@ -1,0 +1,232 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="50e5ee09-4f9b-4b34-b4f3-868afbbde02a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Lab8 Wymiar STARTY</ID>
+  <Name>Lab8 Wymiar STARTY</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1118" scrolltop="-10649" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5292" y="24871" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lab8_wymiar_STARTY" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3016" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_lab8_wymiar_STARTY" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1118</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-10649</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7a5079ca-e854-45ca-9bbf-765906ecda78">
+    <DataSourceViewID>lab8</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="7cbaab0b-dd55-45bd-b23c-3513efef1905">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="439ab901-c4c6-4823-bd26-50976babb1e7">
+      <ID>Takeoff</ID>
+      <Name>Takeoff</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eeb2e802-88bf-48ba-92a6-5a981940dfa8">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="440ea216-ba24-45a6-87e9-d6c8c9354c5e">
+            <TableID>dbo_lab8_wymiar_STARTY</TableID>
+            <ColumnID>takeoff</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fafea8e0-46dd-4e4b-adea-61ce70b13230">
+          <AttributeID>Takeoff Hour</AttributeID>
+          <Name>Takeoff Hour</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c501b3a5-d885-43f8-ae97-e8bfb0670823">
+          <AttributeID>Takeoff Day</AttributeID>
+          <Name>Takeoff Day</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ee82fe9-f5aa-46b7-bcc2-29817bc0ae12">
+          <AttributeID>Takeoff Week</AttributeID>
+          <Name>Takeoff Week</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a0f28d85-f725-4caa-bfea-2aae2fc3b22d">
+          <AttributeID>Takeoff Month</AttributeID>
+          <Name>Takeoff Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="509cf164-edda-4859-a74c-98e95a3db434">
+          <AttributeID>Takeoff Date</AttributeID>
+          <Name>Takeoff Date</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a5bacef7-0b23-4819-adff-2d89b598e74f">
+      <ID>Takeoff Hour</ID>
+      <Name>Takeoff Hour</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e1ccbd1-b4f2-4223-8f2c-dba8e87863a8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f405a765-171d-49af-aaf0-8fc59a5ac997">
+            <TableID>dbo_lab8_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_hour</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6363cd11-8e07-4a77-88e7-23fa92fa01ad">
+      <ID>Takeoff Day</ID>
+      <Name>Takeoff Day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c65b0e5-c665-422a-b715-a1c88974d905">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fc71bfc8-ae9e-4c1b-9990-85e105d0a6f3">
+            <TableID>dbo_lab8_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7a694e65-8c7e-4bec-816a-7de13276a8ac">
+      <ID>Takeoff Week</ID>
+      <Name>Takeoff Week</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="557de053-0be3-4f75-9874-54eaa0bd1d67">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa3afbcc-756e-48eb-993b-d711e9b030e5">
+            <TableID>dbo_lab8_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_week</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0e814000-87f6-47d7-b141-eedd5e5730f3">
+      <ID>Takeoff Month</ID>
+      <Name>Takeoff Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9589aa5e-2e23-4526-9215-251a8c275618">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="51dc3e95-e92b-4216-9d2c-573bfd867124">
+            <TableID>dbo_lab8_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c935983d-2fd2-4f75-984b-2b87fe18aad7">
+      <ID>Takeoff Date</ID>
+      <Name>Takeoff Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d02dbaa6-b8dc-407e-883d-ba5280dab337">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="10d9b986-8cd1-41e6-9b17-e09cdd47c7cb">
+            <TableID>dbo_lab8_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="f8d892cf-75d1-4afb-bb08-9ed3c3ffebe6">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchia startów</Name>
+      <Levels>
+        <Level dwd:design-time-name="dbc1c2ce-eabd-48a0-a0ba-06f3d965ac50">
+          <ID>Takeoff Date</ID>
+          <Name>Takeoff Date</Name>
+          <SourceAttributeID>Takeoff Date</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="18693251-edc5-4b49-953c-22d453eb378d">
+          <ID>Takeoff Month</ID>
+          <Name>Takeoff Month</Name>
+          <SourceAttributeID>Takeoff Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="54a9a957-3bd7-498d-9cb0-4ffcda1a8a2d">
+          <ID>Takeoff Week</ID>
+          <Name>Takeoff Week</Name>
+          <SourceAttributeID>Takeoff Week</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="69d2c19f-e41d-4703-8dda-0f51a2ae22a5">
+          <ID>Takeoff Day</ID>
+          <Name>Takeoff Day</Name>
+          <SourceAttributeID>Takeoff Day</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c467eb9f-811a-48b2-8728-93b0825839c0">
+          <ID>Takeoff Hour</ID>
+          <Name>Takeoff Hour</Name>
+          <SourceAttributeID>Takeoff Hour</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

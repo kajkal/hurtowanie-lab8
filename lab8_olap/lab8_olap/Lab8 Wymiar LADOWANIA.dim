@@ -1,0 +1,232 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f9b2dc76-e55f-4b83-937f-4b347336bcca" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Lab8 Wymiar LADOWANIA</ID>
+  <Name>Lab8 Wymiar LADOWANIA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1105" scrolltop="-10649" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5292" y="24871" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lab8_wymiar_LADOWANIA" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3043" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e30b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_lab8_wymiar_LADOWANIA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1105</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-10649</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="61a6eae2-b31f-4b4f-9ec9-c5f919ba2b0e">
+    <DataSourceViewID>lab8</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="19e1011a-1663-4d6e-a2a1-a7ee89812be6">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5cf5c48d-186f-4551-be21-7b5156062f97">
+      <ID>Landing</ID>
+      <Name>Landing</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2aa81a65-3158-47b0-aa5d-bdff4ab71c77">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68b0d008-92fb-4f64-acb2-a6e5982f4743">
+            <TableID>dbo_lab8_wymiar_LADOWANIA</TableID>
+            <ColumnID>landing</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="14c257d8-af50-4f29-bc1c-3b9688e7ebb1">
+          <AttributeID>Landing Hour</AttributeID>
+          <Name>Landing Hour</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0d5972cc-286c-42cb-873b-80de19b96ead">
+          <AttributeID>Landing Day</AttributeID>
+          <Name>Landing Day</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e913396e-58d4-41c2-99f4-be31e43f6c55">
+          <AttributeID>Landing Week</AttributeID>
+          <Name>Landing Week</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2d65acec-c418-4cc6-a2ac-1e89bba99e1f">
+          <AttributeID>Landing Month</AttributeID>
+          <Name>Landing Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e89bfb30-a92e-426d-94c2-4b7b46bec64e">
+          <AttributeID>Landing Date</AttributeID>
+          <Name>Landing Date</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d2584544-f2d3-4332-bb13-6873715c2d75">
+      <ID>Landing Hour</ID>
+      <Name>Landing Hour</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e55d50b0-0b4e-45bb-8a81-48f8f7d7b011">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ddc0f48-8f1b-4873-8478-d5a8d73617ef">
+            <TableID>dbo_lab8_wymiar_LADOWANIA</TableID>
+            <ColumnID>landing_hour</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4c3c1da6-ad11-4c84-85bd-91e162a0bec0">
+      <ID>Landing Day</ID>
+      <Name>Landing Day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="829ae043-8462-4846-83fc-c1e3b2c74cab">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="957ae3eb-9ec0-4aed-a24c-8ef914a56238">
+            <TableID>dbo_lab8_wymiar_LADOWANIA</TableID>
+            <ColumnID>landing_day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c2636e4f-a3f1-4f1f-b3c7-91ca066a5943">
+      <ID>Landing Week</ID>
+      <Name>Landing Week</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="352174cf-a5e0-49dd-a7ab-b089dc85ce59">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d25e0713-64e6-423c-9316-803421567388">
+            <TableID>dbo_lab8_wymiar_LADOWANIA</TableID>
+            <ColumnID>landing_week</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7572d361-7ec9-4dd2-8718-45863257c28c">
+      <ID>Landing Month</ID>
+      <Name>Landing Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88440f5c-6b5e-4efc-b595-fa69abd32718">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4257f00d-3588-44ed-bad5-96c46fa26975">
+            <TableID>dbo_lab8_wymiar_LADOWANIA</TableID>
+            <ColumnID>landing_month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4018299b-6075-4a03-91fb-92164ac15e82">
+      <ID>Landing Date</ID>
+      <Name>Landing Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="80c2d512-e632-4639-8091-474d83044843">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe67b0e9-ddaf-4fc9-9563-3488381ccab4">
+            <TableID>dbo_lab8_wymiar_LADOWANIA</TableID>
+            <ColumnID>landing_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="a760f0bc-5e4b-4072-a315-bae1813b2e57">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchia lądowań</Name>
+      <Levels>
+        <Level dwd:design-time-name="b17adbe8-74e6-4f3f-acbd-f479246987ab">
+          <ID>Landing Date</ID>
+          <Name>Landing Date</Name>
+          <SourceAttributeID>Landing Date</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d0e8b418-ccf7-478e-81e3-afdbd3a7469c">
+          <ID>Landing Month</ID>
+          <Name>Landing Month</Name>
+          <SourceAttributeID>Landing Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1f01271b-639d-44f3-b0f4-f543057e2cbf">
+          <ID>Landing Week</ID>
+          <Name>Landing Week</Name>
+          <SourceAttributeID>Landing Week</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="569facd4-38b1-4239-8e67-5acffbad4a91">
+          <ID>Landing Day</ID>
+          <Name>Landing Day</Name>
+          <SourceAttributeID>Landing Day</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ad3f2e26-9d20-45bb-ad8a-ebd422bb3bf3">
+          <ID>Landing Hour</ID>
+          <Name>Landing Hour</Name>
+          <SourceAttributeID>Landing Hour</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
